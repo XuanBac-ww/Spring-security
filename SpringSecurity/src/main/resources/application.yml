@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: SpringSecurity
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsecurity
+    username: root
+    password: bopanu04
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+security:
+  jwt:
+    secret-key: PPrW7xSTfBwOpRn4/AV6gPzQSnQg+Oi80KdWfCcuAHs=
+    expiration-time: 60000
+    refreshExpirationMs: 604800000
