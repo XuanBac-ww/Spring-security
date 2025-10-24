@@ -47,5 +47,5 @@ server:
 security:
   jwt:
     secret-key: PPrW7xSTfBwOpRn4/AV6gPzQSnQg+Oi80KdWfCcuAHs=
-    expiration-time: 60000
+    expiration-time: 900000
     refreshExpirationMs: 604800000
